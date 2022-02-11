@@ -5,7 +5,9 @@ const howSum = (targetSum, numbers) => {
     for(let i = 0; i <= table.length; i ++) {
         for(let number of numbers) {
             if(table[i] !== null) {
-                if(i + number < table.length) table[i + number] = [...table[i], number]
+                if(i + number < table.length) {
+                    table[i + number] = [...table[i], number]
+                }
             }
         }
     }
