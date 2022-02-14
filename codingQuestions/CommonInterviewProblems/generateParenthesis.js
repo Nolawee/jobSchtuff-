@@ -28,4 +28,4 @@ const generateParentheses = (n) => {
 console.log(generateParentheses(1))
 console.log(generateParentheses(2))
 console.log(generateParentheses(3))
-console.log(generateParentheses(10))
+console.log(generateParentheses(4))
